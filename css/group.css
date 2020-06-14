@@ -1,0 +1,141 @@
+.wrapper{
+  margin: 0 auto;
+  display:flex;
+  height:100%;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  border-bottom: 3px solid #a19f9e;
+}
+/* the left bar - menu*/
+.menu{
+  display:flex;
+  flex-direction: column;
+  width: 20%;
+  background-color: burlywood;
+  justify-content: space-between;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border-right: wheat solid 3px;
+}
+
+.menu-profile{
+  background-color: coral;
+  padding: 10px;
+  font-size: 16px;
+  border-bottom: solid 2px orangered;
+  color: white;
+}
+.profile-image{
+  max-width: 80px;
+  border-radius: 50%;
+  padding-left: 20px;
+}
+.menu-text{
+  
+  font-weight: bold;
+  order: 1;
+  padding-left: 20px;
+  color: gray;
+}
+
+.menu-profile>.menu-text{
+  color: white;
+}
+
+.menu-options  {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.leave-room{
+  display: flex;
+  padding-left: 20px;
+}
+
+.friends-room{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+}
+
+.friends-box{
+  display: flex;
+  align-items: center;
+}
+
+.friends-img{
+  border-radius: 50%;
+  width: 20px;
+  border: 2px solid coral;
+ 
+}
+
+.menu-settings {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  padding-left: 30px;
+}
+
+.menu-img {
+  width: 20px;
+  order: 0;
+}
+
+.playground{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: whitesmoke;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-around;
+  color: orangered;
+  padding-top: 10px;
+  align-content: center;
+}
+
+.playground-pick{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.playground-img{
+  width: 50%;
+  height: auto;
+}
+
+.playground-description{
+  margin-top: 0px;
+}
+.playground-choose{
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 20px;
+}
+
+.playground-friends{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px burlywood solid;
+  padding: 5px;
+}
+
+.friends-img2{
+  height: auto;
+  width: 50px;
+  border-radius: 50%;
+  border: 3px solid coral;
+  
+}
+.friends-name{
+  padding-left: 5px;
+  color: coral;
+}
