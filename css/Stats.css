@@ -99,3 +99,60 @@
   align-content: center;
 }
 
+.graphic{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.graph-img{
+  max-width: 50%;
+  height: auto;
+}
+
+.graph-description{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.playground-description{
+  
+  display: flex;
+  align-items: center;
+  border: 2px burlywood solid;
+  padding: 5px;
+  justify-content: space-between;
+}
+.friends-img2{
+  width: 50px;
+  height: auto;
+  border-radius: 50%;
+  border: 3px solid coral;
+}
+
+.friends-name{
+  padding-left: 5px;
+  color: coral;
+}
+
+.graph-color1{
+  width: 50px;
+  height: 50px;
+  background-color: #5B9BD5;
+  margin-right: 5px;
+}
+
+.graph-color2{
+  width: 50px;
+  height: 50px;
+  background-color: #ED7D31;
+  margin-right: 5px;
+}
+
+.graph-color3{
+  width: 50px;
+  height: 50px;
+  background-color: #A5A5A5;
+  margin-right: 5px;
+}
