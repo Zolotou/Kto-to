@@ -1,0 +1,92 @@
+
+
+.background{
+    background-image: url("../img/background\ 2.png");
+    margin: auto;
+    min-height: 700px;
+    width: 800;
+    display: flex;
+    align-items: center;
+}
+
+.canvas{
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 50%;
+  min-height: 600px;
+  box-shadow: black 5px;
+  box-shadow: 5px 10px 8px #888888;
+}
+
+.logo{
+  margin: 0;
+  padding: 10px;
+  font-size: 20px;
+  color: coral;
+  background-color: burlywood;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border-bottom: solid 2px coral;
+  
+}
+
+.thelogo{
+  display:flex;
+  justify-content: center;
+}
+
+.canvas-box{
+  padding: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: auto;
+  
+}
+
+.canvas-input{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+
+.input{
+  border-radius: 5%;
+  margin: 10px;
+  font-size: 20px;
+}
+
+.lost-password{
+  align-self: center;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-decoration: initial;
+  color: #7B6BEA;
+}
+
+.canvas-buttons{
+  margin: 30px;
+  padding: 10px;
+  display: flex;
+  
+  
+  justify-content: space-between;
+  
+}
+
+.button{
+  min-height: 50px;
+  min-width: 120px;
+  border-radius: 5%;
+  background-color: white;
+  font-size: 20px;
+  color: #7B6BEA;
+}
+
+.google-img{
+  max-width: 350px;
+  
+}
